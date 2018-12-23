@@ -27,9 +27,9 @@ class FullPost extends Component {
     }
 
     render () {
-        let post = <p>Please select a Post!</p>;
+        let post = <p className="Center">Please select a Post!</p>;
         if (this.props.id) {
-            post = <p>Loading...</p>;
+            post = <p className="Center">Loading...</p>;
         }
         if (this.state.selectedPost) {
             post = (

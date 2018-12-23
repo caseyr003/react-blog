@@ -36,3 +36,7 @@
 .Edit button.Delete:active {
     color: darkred;
 }
+
+.Center {
+    text-align: center;
+}
