@@ -24,3 +24,11 @@
 .Blog a:active {
     color: #4682b4;
 }
+
+.Blog a.active {
+    border-bottom: 3px solid #4682b4;
+}
+
+.Blog a.main-active {
+    border-bottom: 5px solid #4682b4;
+}
